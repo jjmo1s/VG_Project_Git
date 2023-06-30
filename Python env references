@@ -1,0 +1,26 @@
+#10 minutes to pandas 
+https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html
+
+See HW6 jupyter notebook in BE530
+
+
+
+# creating new environment
+conda create --prefix=C:/Users/Joey/Desktop/Data-Science/VG_Project/mlenv python=3.7
+
+# installing packages
+# when env is activated and you are in it
+conda install <package name>
+or when in env:
+# pip install
+python -m pip install -U matplotlib
+
+
+Do this every time to access your environment
+
+cd C:\Users\Joey\Desktop\School\BE530
+conda activate C:\Users\Joey\Desktop\School\BE530\mlenv
+
+jupyter notebook
+
+conda deactivate
